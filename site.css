@@ -86,6 +86,8 @@ footer{background:var(--bar);color:var(--bar-ink);padding:20px 0 30px;font-size:
 footer a{color:inherit}
 footer .wrap{display:flex;flex-direction:column;gap:8px}
 footer nav{display:flex;gap:6px 16px;flex-wrap:wrap}
+footer .visits{margin:0;opacity:.75}
+footer .visits img{vertical-align:middle;border-radius:4px}
 .hide{display:none!important}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
 .btn.sm{padding:6px 10px;font-size:.85rem}
