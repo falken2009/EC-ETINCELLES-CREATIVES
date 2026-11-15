@@ -30,5 +30,6 @@
   "shipTiers": [],
   "shipNote": "",
   "shipMode": "auto",
-  "paypalClientId": "BAAv3iIhijUXj4uaxqpymO-BwlligS7YMPtDxqg7YBYCK6-_pS_P3A0tfyHpKuYNYMl5VTUtX0h-h86wQc"
+  "paypalClientId": "BAAv3iIhijUXj4uaxqpymO-BwlligS7YMPtDxqg7YBYCK6-_pS_P3A0tfyHpKuYNYMl5VTUtX0h-h86wQc",
+  "orderHook": ""
 }
