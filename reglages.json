@@ -31,5 +31,6 @@
   "shipNote": "",
   "shipMode": "auto",
   "paypalClientId": "BAAv3iIhijUXj4uaxqpymO-BwlligS7YMPtDxqg7YBYCK6-_pS_P3A0tfyHpKuYNYMl5VTUtX0h-h86wQc",
+  "contactKey": "032aebc2-7269-4e57-adad-da7773fdf290",
   "orderHook": "https://hook.eu1.make.com/kt96v33yojewigae6anrpvx04bwnnraj"
 }
