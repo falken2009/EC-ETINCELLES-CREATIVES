@@ -184,3 +184,23 @@ fetchSold(false).then(function(sold){
   if(fixCart(sold).length&&document.getElementById("cartItems")){location.reload()}
   var cb=document.getElementById("navCartCount");if(cb){var n=readCart().reduce(function(a,i){return a+(i.qty||0)},0);cb.textContent=n;cb.classList.toggle("hide",n===0)}});
 })();
+
+
+(function(){
+  if(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  var G=window.__fxGlyphs||null;
+  var c=document.createElement("canvas");c.setAttribute("aria-hidden","true");
+  c.style.cssText="position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:9999";
+  document.body.appendChild(c);var x=c.getContext("2d"),W,H,f=[],N=G?34:70;
+  function size(){W=c.width=window.innerWidth;H=c.height=window.innerHeight}
+  size();window.addEventListener("resize",size);
+  for(var i=0;i<N;i++)f.push({x:Math.random()*W,y:Math.random()*H,r:1+Math.random()*3,v:.4+Math.random()*1.1,d:Math.random()*Math.PI*2,g:G?G[i%G.length]:""});
+  function tick(){
+    x.clearRect(0,0,W,H);x.fillStyle="rgba(255,255,255,.9)";x.shadowColor="rgba(0,0,0,.25)";x.shadowBlur=3;x.textAlign="center";x.textBaseline="middle";
+    for(var i=0;i<N;i++){var s=f[i];s.y+=s.v;s.d+=.01;s.x+=Math.sin(s.d)*.6;
+      if(s.y>H+20){s.y=-20;s.x=Math.random()*W}
+      if(G){x.font=(14+s.r*4)+"px sans-serif";x.fillText(s.g,s.x,s.y)}
+      else{x.beginPath();x.arc(s.x,s.y,s.r,0,Math.PI*2);x.fill()}}
+    requestAnimationFrame(tick)}
+  tick();
+})();
