@@ -51,6 +51,16 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2}
 .sec a{font-weight:600;background:var(--card);border-radius:8px;padding:2px 10px}
 .rayons{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
 .rayon{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;text-decoration:none;color:var(--ink);font-weight:700;display:flex;flex-direction:column;gap:2px}
+.colls{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-bottom:8px}
+.coll{position:relative;display:block;aspect-ratio:4/3;border-radius:var(--r);overflow:hidden;text-decoration:none;color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.14)}
+.coll img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.coll:hover img{transform:scale(1.06)}
+.coll::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.78),rgba(0,0,0,.05) 60%)}
+.coll-t,.coll-n{position:absolute;left:14px;z-index:1}
+.coll-t{bottom:30px;font-weight:800;font-size:1.15rem}
+.coll-n{bottom:11px;font-size:.85rem;opacity:.9}
+.coll-links{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.coll-links .chip{text-decoration:none}
 .rayon span{font-weight:400;font-size:.85rem;color:var(--muted)}
 .box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px}
 .box h1{font-size:1.6rem;margin:0 0 10px}
