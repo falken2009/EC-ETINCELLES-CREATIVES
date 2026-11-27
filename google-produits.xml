@@ -12,6 +12,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/hunter-x-hunter.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>20.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -25,6 +26,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/il-794xn-6752356097-839o.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -38,6 +40,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/il-794xn-6763647711-1qg7.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -51,6 +54,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/il-794xn-7412666563-7u37.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -64,6 +68,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/il-794xn-6715714995-1rwj.jpg</g:image_link>
 <g:availability>out_of_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -77,6 +82,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/toile-gravee-cheval-rouge-et-blanc.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -90,6 +96,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/miroir-grave-law-one-piece.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>20.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -103,6 +110,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/miroir-elfe-profil.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>20.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -116,6 +124,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/miroir-visage-elfe-et-son-papillon.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>20.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -129,6 +138,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/toile-moyenne-panthere-noire-et-bleu-nui.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -142,6 +152,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/marque-page-manga-toilet-bound.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>3.50 EUR</g:price>
+<g:shipping_weight>15 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -155,6 +166,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/2-support-organisateur-fils-point-de-cro.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>60 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -168,6 +180,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/cadre-puzzle-saint-valentin-personnalisa.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>150 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -181,6 +194,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/sac-en-toile-stich-et-sa-glace.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -194,6 +208,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/sac-en-toile-stich-et-angel.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -207,6 +222,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/sac-en-toile-koala.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -220,6 +236,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/pochette-mario.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>5.00 EUR</g:price>
+<g:shipping_weight>40 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -233,6 +250,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/grenouille-verte-et-noir.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -246,6 +264,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/renard-a-9-queues-orange-et-paillete.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>16.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -259,6 +278,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/grenouille-violette-avec-petite-cle-inte.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -272,6 +292,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/renard-a-9-queues-bleu-et-noir.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>16.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -285,6 +306,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/grenouille-bleu-et-violette.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -298,6 +320,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/grenouille-violette-et-bleu.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -311,6 +334,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/renard-a-9-queues-violet-et-paillettes.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>16.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -324,6 +348,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/renard-a-9-queues-marron-paillete.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>16.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -337,6 +362,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/grenouille-bi-couleur.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -350,6 +376,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/toile-gravee-tanjiro-kamado.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -363,6 +390,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/toile-gravee-fee-verte-et-rose.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -376,6 +404,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/toile-gravee-oeil-gris-papillon.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -389,6 +418,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/marque-page-manga-one-piece.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>3.50 EUR</g:price>
+<g:shipping_weight>15 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -402,6 +432,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/toile-grave-fee-avec-lune.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>10.00 EUR</g:price>
+<g:shipping_weight>250 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -415,6 +446,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/miroir-grave-luffy-one-piece.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>20.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -428,6 +460,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/tanjiro.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>22.00 EUR</g:price>
+<g:shipping_weight>500 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -441,6 +474,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/img-3557.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -454,6 +488,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/img-3559.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -467,6 +502,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/img-3560.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
@@ -480,6 +516,7 @@
 <g:image_link>https://ec-etincelles-creatives.fr/images/img-3558.jpg</g:image_link>
 <g:availability>in_stock</g:availability>
 <g:price>15.00 EUR</g:price>
+<g:shipping_weight>350 g</g:shipping_weight>
 <g:condition>new</g:condition>
 <g:brand>EC Étincelles Créatives</g:brand>
 <g:identifier_exists>no</g:identifier_exists>
