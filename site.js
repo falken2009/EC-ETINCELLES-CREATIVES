@@ -49,11 +49,13 @@ fromHash();
 var KEY="panier_v1";
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function euro(n){return n.toFixed(2).replace(".",",")+" €"}
-var TTL=3600000; // un article reste 1 heure dans le panier, puis il est retiré
+var TTL=7*24*3600000; // un article reste 7 jours dans le panier sans visite ; chaque visite relance le délai
 function getCart(){try{var c=JSON.parse(localStorage.getItem(KEY));if(!Array.isArray(c))return[];
   var now=Date.now(),k=c.filter(function(i){return !i.t||now-i.t<TTL});
   if(k.length!==c.length){try{localStorage.setItem(KEY,JSON.stringify(k))}catch(e){}}
   return k}catch(e){return[]}}
+// à chaque visite, le délai des articles du panier repart de zéro (la disponibilité réelle est revérifiée au paiement)
+(function(){var c=getCart();if(!c.length)return;var now=Date.now();c.forEach(function(i){i.t=now});try{localStorage.setItem(KEY,JSON.stringify(c))}catch(e){}})();
 function setCart(c){try{localStorage.setItem(KEY,JSON.stringify(c))}catch(e){}updateBadge()}
 function updateBadge(){var c=getCart(),n=c.reduce(function(s,i){return s+(i.qty||0)},0),b=document.getElementById("navCartCount");
   if(b){b.textContent=n;b.classList.toggle("hide",n===0)}}
