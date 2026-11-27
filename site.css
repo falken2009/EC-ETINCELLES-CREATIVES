@@ -125,3 +125,10 @@ footer .visits img{vertical-align:middle;border-radius:4px}
 .ship-opt{display:block;margin-bottom:6px;cursor:pointer;font-size:.95rem}
 #cartTotal{font-size:1.3rem;font-weight:700;margin:12px 0}
 @media (max-width:620px){.grid{grid-template-columns:1fr}.card{flex-direction:row}.card .pic{width:38%;flex:none;aspect-ratio:auto;min-height:140px}.prod{grid-template-columns:1fr}.hero h1{font-size:1.45rem}.hero-pics{grid-template-columns:1fr}.hero-mosaic{height:170px;order:-1}}
+
+.btn.btn-photo{background:transparent;color:var(--link);border:1.5px solid currentColor;margin-top:8px}
+.pbox{margin-top:18px}.pbox h2{font-size:1.15rem;margin:0 0 6px}
+.pbox input[type=text],.pbox input[type=email],.pbox textarea{width:100%;max-width:28rem}
+.pdrop{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;max-width:28rem;min-height:120px;border:2px dashed var(--line);border-radius:var(--r);padding:14px;cursor:pointer;font-weight:700;color:var(--link);text-align:center}
+.pdrop:hover{border-color:var(--link)}.pdrop input{position:absolute;opacity:0;width:1px;height:1px}
+.pdrop img{max-width:100%;max-height:240px;border-radius:8px}

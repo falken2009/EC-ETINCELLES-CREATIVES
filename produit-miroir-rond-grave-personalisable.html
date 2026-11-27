@@ -20,7 +20,7 @@
 <link rel="icon" href="images/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&amp;family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=1795816031">
+<link rel="stylesheet" href="site.css?v=1795816372">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","brand":{"@type":"Brand","name":"EC Étincelles Créatives"},"category":"GRAVURE LASER / Toile 20x20","description":"Transformez votre photo préférée en une création lumineuse et personnelle grâce à cette gravure sur miroir personnalisable. Envoyez l’image de votre choix pour faire réaliser un portrait gravé qui révèle ses détails avec élégance et apporte une touche unique à votre décoration. Idéal pour célébrer un anniversaire, un mariage, une naissance ou tout autre moment précieux, ce miroir personnalisé constitue également un cadeau mémorable, conçu spécialement pour la personne qui le reçoit. Son rendu…","image":"https://ec-etincelles-creatives.fr/images/photoroom-20261127-221741.jpg","name":"Miroir rond gravé , personalisable","offers":{"@type":"Offer","availability":"https://schema.org/InStock","price":"30.00","priceCurrency":"EUR","shippingDetails":[{"@type":"OfferShippingDetails","shippingDestination":{"@type":"DefinedRegion","addressCountry":"FR"},"shippingRate":{"@type":"MonetaryAmount","currency":"EUR","value":"4.15"}},{"@type":"OfferShippingDetails","shippingDestination":{"@type":"DefinedRegion","addressCountry":"FR"},"shippingRate":{"@type":"MonetaryAmount","currency":"EUR","value":"6.89"}}],"url":"https://ec-etincelles-creatives.fr/produit-miroir-rond-grave-personalisable.html"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://ec-etincelles-creatives.fr/","name":"Accueil","position":1},{"@type":"ListItem","item":"https://ec-etincelles-creatives.fr/boutique.html","name":"Boutique","position":2},{"@type":"ListItem","item":"https://ec-etincelles-creatives.fr/produit-miroir-rond-grave-personalisable.html","name":"Miroir rond gravé , personalisable","position":3}]}</script>
 </head>
@@ -43,8 +43,40 @@
 <p class="desc">Transformez votre photo préférée en une création lumineuse et personnelle grâce à cette gravure sur miroir personnalisable. Envoyez l’image de votre choix pour faire réaliser un portrait gravé qui révèle ses détails avec élégance et apporte une touche unique à votre décoration. Idéal pour célébrer un anniversaire, un mariage, une naissance ou tout autre moment précieux, ce miroir personnalisé constitue également un cadeau mémorable, conçu spécialement pour la personne qui le reçoit. Son rendu raffiné s’intègre facilement dans différents styles d’intérieur et met en valeur vos souvenirs</p>
 <p class="ship">Frais de port estimés (achat sur ce site) — Mondial Relay (point relais) : 4,15 € · Colissimo (point retrait) : 6,89 €</p>
 <button type="button" class="btn cart-add" data-id="produit-miroir-rond-grave-personalisable.html" data-name="Miroir rond gravé , personalisable" data-price="30.00" data-weight="500" data-photo="images/photoroom-20261127-221741.jpg" data-max="1">Ajouter au panier</button>
+<a class="btn btn-photo" href="#photo">📷 Envoyer ma photo</a>
 </div>
 </article>
+<section class="box pbox" id="photo">
+<h2>Envoyez-moi votre photo</h2><p>Pour un article personnalisé, choisissez la photo à graver ou à reproduire, puis envoyez-la avec vos indications (prénom, texte, taille…).</p>
+<form id="pform" novalidate>
+<label class="pdrop" for="pFile"><input type="file" id="pFile" accept="image/*"><img id="pPrev" alt="" hidden><span id="pHint">📷 Choisir ma photo</span></label>
+<p><label for="pName">Votre nom</label><br><input type="text" id="pName" maxlength="80" autocomplete="name"></p>
+<p><label for="pMail">Votre e-mail</label><br><input type="email" id="pMail" maxlength="120" autocomplete="email"></p>
+<p><label for="pMsg">Vos indications</label><br><textarea id="pMsg" rows="3" maxlength="1500" placeholder="Prénom, texte, taille, couleurs…"></textarea></p>
+<p><button class="btn" type="submit" id="pBtn">Envoyer ma photo</button></p>
+<p class="msg" id="pOut" role="status"></p>
+</form></section>
+<script>
+(function(){var C={"hook":"","mail":"ECETINCELLESCREATIVES@OUTLOOK.com","product":"Miroir rond gravé , personalisable","site":"EC Étincelles Créatives"},f=document.getElementById("pform");if(!f)return;
+var inp=document.getElementById("pFile"),prev=document.getElementById("pPrev"),hint=document.getElementById("pHint"),out=document.getElementById("pOut"),btn=document.getElementById("pBtn"),pic=null,fname="";
+function say(t,ok){out.textContent=t;out.style.color=ok?"inherit":"#c0392b"}
+inp.addEventListener("change",function(){var fl=inp.files&&inp.files[0];if(!fl)return;if(!/^image\//.test(fl.type)){say("Choisissez une image (JPG, PNG…).",false);return}
+ fname=fl.name.replace(/\.[^.]+$/,"")+".jpg";var r=new FileReader();r.onload=function(){var im=new Image();im.onload=function(){
+  var m=1600,w=im.width,h=im.height,k=Math.min(1,m/Math.max(w,h)),c=document.createElement("canvas");c.width=Math.round(w*k);c.height=Math.round(h*k);
+  var x=c.getContext("2d");x.fillStyle="#fff";x.fillRect(0,0,c.width,c.height);x.drawImage(im,0,0,c.width,c.height);pic=c.toDataURL("image/jpeg",.85);
+  prev.src=pic;prev.hidden=false;hint.textContent="Changer de photo";say("",true)};im.onerror=function(){say("Cette image ne peut pas être lue. Essayez une photo JPG.",false)};im.src=r.result};r.readAsDataURL(fl)});
+f.addEventListener("submit",function(ev){ev.preventDefault();
+ var n=document.getElementById("pName").value.trim(),m=document.getElementById("pMail").value.trim(),t=document.getElementById("pMsg").value.trim(),subj="Photo pour personnalisation"+(C.product?" : "+C.product:"");
+ if(!C.hook){location.href="mailto:"+C.mail+"?subject="+encodeURIComponent(subj)+"&body="+encodeURIComponent((t?t+"\n\n":"")+(n?n+"\n":"")+"\n(N'oubliez pas de joindre votre photo à ce message.)");
+  say("Votre messagerie s'ouvre : ajoutez votre photo en pièce jointe, puis envoyez. Adresse : "+C.mail,true);return}
+ if(!pic){say("Choisissez d'abord votre photo.",false);return}
+ if(!n||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(m)){say("Merci d'indiquer votre nom et un e-mail valide pour que je puisse vous répondre.",false);return}
+ btn.disabled=true;say("Envoi de la photo…",true);
+ fetch(C.hook,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({type:"photo",site:C.site,product:C.product,name:n,email:m,message:t,filename:fname,mime:"image/jpeg",photo:pic.split(",")[1]})})
+ .then(function(r){if(!r.ok)throw 0;f.reset();pic=null;prev.hidden=true;hint.textContent="📷 Choisir ma photo";say("Merci ! Votre photo est bien envoyée, je vous réponds vite.",true);btn.disabled=false})
+ .catch(function(){btn.disabled=false;say("L'envoi a échoué. Réessayez, ou écrivez-moi"+(C.mail?" à "+C.mail:"")+" avec la photo en pièce jointe.",false)})});
+})();
+</script>
 <div class="sec"><h2>Vous aimerez aussi</h2><a href="boutique.html">Toute la boutique</a></div>
 <div class="grid">
 <article class="card" data-cat="0" data-sub="Toile 20x20" data-name="toile gravée lion cette toile gravée représente un lion majestueux en noir et blanc, capturant la puissance et la noblesse de cet animal emblématique. idéale pour les amateurs de décoration intérieure, cette pièce unique apportera une touche de sophistication à tout espace. gravure laser toile 20x20" data-price="10.00" data-n="1">
@@ -99,6 +131,6 @@
 </div>
 </div></footer>
 <script>window.SHOP_REPO="falken2009/EC-ETINCELLES-CREATIVES";</script>
-<script src="site.js?v=1795816031"></script>
+<script src="site.js?v=1795816372"></script>
 </body>
 </html>
