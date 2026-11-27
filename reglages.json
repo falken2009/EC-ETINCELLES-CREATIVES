@@ -26,7 +26,13 @@
   "facebook": "",
   "tiktok": "",
   "pinterest": "",
-  "pages": [],
+  "pages": [
+    {
+      "title": "Livraison et retours",
+      "text": "Livraison\nEnvoi en France métropolitaine par Mondial Relay (point relais) ou Colissimo (point retrait). Commande préparée sous 1 à 3 jours ouvrés, puis livrée en 2 à 5 jours ouvrés. Les frais de port sont indiqués sur chaque fiche produit.\n\nDroit de rétractation et retours\nVous disposez de 14 jours après réception pour nous retourner un article, sans avoir à vous justifier. Contactez-nous d'abord à ecetincellescreatives@outlook.com. L'article doit être renvoyé dans son état d'origine, frais de retour à votre charge. Le remboursement est fait sous 14 jours après réception du retour.\nLes articles personnalisés à votre demande (prénom, photo, texte) ne peuvent pas être retournés, sauf défaut.\n\nArticle abîmé ou défectueux\nEnvoyez-nous une photo sous 48 h après réception : nous remplaçons ou remboursons l'article, frais de retour compris.\n\nEC Étincelles Créatives · SIRET 938 293 529 00013",
+      "blocks": ""
+    }
+  ],
   "indexNowKey": "e7e58419b1c8f5d08a6d3fffb502c2b4",
   "shipTiers": [],
   "shipNote": "",
