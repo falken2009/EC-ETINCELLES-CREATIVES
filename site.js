@@ -190,9 +190,14 @@ fetchSold(false).then(function(sold){
 // Galerie, zoom plein écran et bouton « haut de page »
 (function(){
 "use strict";
-var main=document.getElementById("mainPic"),thumbs=[].slice.call(document.querySelectorAll(".thumb"));
+var main=document.getElementById("mainPic"),vthumb=document.querySelector(".vthumb"),thumbs=[].slice.call(document.querySelectorAll(".thumb:not(.vthumb)"));
+function stopVideo(){var v=document.querySelector(".pic .vplay");if(v)v.remove();if(vthumb)vthumb.classList.remove("on")}
+if(vthumb){vthumb.addEventListener("click",function(){var pic=document.querySelector(".prod .pic");if(!pic||pic.querySelector(".vplay"))return;var el;
+  if(vthumb.dataset.yt){el=document.createElement("iframe");el.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(vthumb.dataset.yt)+"?autoplay=1&rel=0&playsinline=1";el.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";el.allowFullscreen=true;el.title="Vidéo du produit"}
+  else{el=document.createElement("video");el.src=vthumb.dataset.video;el.controls=true;el.autoplay=true;el.playsInline=true;el.setAttribute("playsinline","")}
+  el.className="vplay";pic.appendChild(el);thumbs.forEach(function(t){t.classList.remove("on")});vthumb.classList.add("on")})}
 var list=thumbs.length?thumbs.map(function(t){return t.dataset.src}):(main?[main.getAttribute("src")]:[]),cur=0;
-function show(i){cur=(i+list.length)%list.length;if(main){main.src=list[cur]}thumbs.forEach(function(t,k){t.classList.toggle("on",k===cur)})}
+function show(i){stopVideo();cur=(i+list.length)%list.length;if(main){main.src=list[cur]}thumbs.forEach(function(t,k){t.classList.toggle("on",k===cur)})}
 thumbs.forEach(function(t,k){t.addEventListener("click",function(){show(k)})});
 var lb=null,lbImg,lbC;
 function build(){lb=document.createElement("div");lb.className="lb";lb.hidden=true;lb.setAttribute("role","dialog");lb.setAttribute("aria-modal","true");lb.setAttribute("aria-label","Photo agrandie");
